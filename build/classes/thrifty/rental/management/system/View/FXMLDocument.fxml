@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="624.0" prefWidth="1157.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thrifty.rental.management.system.Controller.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="261.0" layoutY="120.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="106.0" text="Vehicle Name:" />
+        <Button fx:id="button1111" layoutX="261.0" layoutY="394.0" mnemonicParsing="false" text="Add Vehicles" />
+      <Label fx:id="label1" layoutX="261.0" layoutY="162.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="106.0" text="Vehicle Name:" />
+      <Label fx:id="label2" layoutX="261.0" layoutY="210.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="106.0" text="Vehicle Name:" />
+      <Label fx:id="label3" layoutX="102.0" layoutY="200.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="106.0" text="Vehicle Name:" />
+      <Label fx:id="label4" layoutX="261.0" layoutY="255.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="106.0" text="Vehicle Name:" />
+      <Label fx:id="label5" layoutX="261.0" layoutY="302.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="106.0" text="Vehicle Name:" />
+      <VBox prefHeight="624.0" prefWidth="155.0">
+         <children>
+            <Hyperlink prefHeight="108.0" prefWidth="166.0" text="Hyperlink" />
+         </children>
+      </VBox>
+      <TextField layoutX="398.0" layoutY="115.0" />
+      <TextField layoutX="398.0" layoutY="157.0" />
+      <TextField layoutX="398.0" layoutY="205.0" />
+      <TextField layoutX="398.0" layoutY="255.0" />
+      <TextField layoutX="398.0" layoutY="297.0" />
+    </children>
+</AnchorPane>
